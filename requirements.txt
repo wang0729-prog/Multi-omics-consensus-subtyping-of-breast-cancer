@@ -1,0 +1,17 @@
+# Runtime requirements for the analysis.
+# Verified with Python 3.13 on Windows. Lower bounds only; every import in this
+# repository is listed here, and nothing here is unused.
+numpy>=2.0
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+joblib>=1.3
+matplotlib>=3.8
+lifelines>=0.27
+scikit-survival>=0.19
+gseapy>=1.1
+anndata>=0.10
+scanpy>=1.10
+liana>=0.3
+pypdf>=4.0              # make_ai.py
+python-docx>=1.1        # optional, only for the manuscript checks in the audit script
